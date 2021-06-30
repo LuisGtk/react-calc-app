@@ -1,7 +1,10 @@
 .app {
 display: flex;
+justify-content: center;
+
+}
+h1{
   text-align: center;
-  background-color: rgb(214, 54, 33);
 }
 #OpenCalc{
  border-radius: 20px;
@@ -10,7 +13,6 @@ display: flex;
 
 }
 p{
-  background-color: rgba(4, 7, 5, 0.836);
+  background-color: rgba(6, 10, 7, 0.836);
   color: white;
 }
-
