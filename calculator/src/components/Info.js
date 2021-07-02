@@ -30,7 +30,7 @@ return(
    <h1>Get your random number facts here</h1>
    <button className="facts"onClick={handleClick}>Click for another fun fact</button>
    {/* randomFact variable being called */}
-   {randomFact}
+   <p> {randomFact}</p>
 </>
     )
 }
