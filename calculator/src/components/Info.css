@@ -1,6 +1,7 @@
 body{
   justify-content: center;
 }
+/* facts button */
 .facts{
     transition-duration: 0.4s; 
     border-radius: 8px;

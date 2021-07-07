@@ -3,7 +3,7 @@ display: grid;
 justify-content: center;
 }
 body{
-  background-color: rgb(130, 74, 182);
+  background-color: rgb(155, 98, 207);
 }
 h1{
   text-align: center;
@@ -12,17 +12,21 @@ h1{
 #OpenCalc{
   border-radius: 20px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  padding: 140px 260px;
+  padding: 130px 220px;
    background-color: cadetblue;
+   font-weight: bold;
+   font-size: 20px;
 }
-#mathInfo{
 
+#mathInfo{
 border-radius: 20px;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-padding: 140px 260px;
+padding: 130px 220px;
 background-color: cadetblue;
 margin: auto;
-margin-left: 699px;
+margin-left: 670px;
+font-weight: bold;
+font-size: 20px;
 }
 p{
   background-color: rgba(6, 10, 7, 0.836);
