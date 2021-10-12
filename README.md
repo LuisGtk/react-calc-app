@@ -1,3 +1,12 @@
+React Calculator Application Description:
+
+One of my first couple of projects to showcase skills I've learned during my Software Engineer course. This showed case how I took advantage to the utilities on react such as useState and importing Route and Switch.
+
+Technologies Used:
+React.js, CSS, Functions, useEffect, useState
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
