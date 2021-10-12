@@ -17,14 +17,14 @@ const callApi = () => {
      callApi()
      }, [num])
 
-//incrementing the number of facts by one after each click
+//incrementing the number of facts by one after each clickP
 const handleClick =() => {
   setNum(num => num+1)
   }
    //console.log(num)
 return(
  <>
-   <h1>Get your random number facts here</h1>
+   <h1>Get your random number generated facts here</h1>
    <button className="facts"onClick={handleClick}>Click for another fun fact</button>
    {/* randomFact variable being called */}
    <p> {randomFact}</p>
