@@ -1,16 +1,17 @@
-body{
-  justify-content: center;
-}
+
 /* facts button */
 .facts{
     transition-duration: 0.4s; 
-    border-radius: 8px;
-    padding: 40px 50px;
+    border-radius: 20px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
   }
   .facts:hover {
-    background-color: #6e706e;
+    background-color: cadetblue;
     color: white;
   }
   p{
-    align-items: center;
+    display: flex;
+    justify-content: center;
   }

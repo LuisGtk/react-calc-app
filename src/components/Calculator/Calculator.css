@@ -1,9 +1,4 @@
-.App {
-    display: flex;
-    justify-content: center;
-    }
-  
-      .display{
+.display{
           display: flex;
           justify-content: center;
           background-color: rgb(179, 175, 175);
@@ -11,36 +6,28 @@
           font-size: 1.5rem;
           position: relative;
       }
-
       .CalcBoard{
         margin: 0 auto;
         padding: 30px;
         background-color: rgb(73, 73, 73);
+        display: flexbox;
           border: 1px solid ;
           width: 50%;
           justify-content: center;
           align-items: center;
       }
-
       .row{
           display: grid;
-          grid-template-columns: repeat(4, 1fr);
-         
+          grid-template-columns: repeat(4, 1fr); 
       }
-
       .total{
         position: absolute;
         bottom: 2%;
         right: 3%;
       }
-
       .row > * {
           padding: 20px;
       }
-
       .row button:hover{
             background-color: rgb(199, 194, 194);
       }
-
-  
-
