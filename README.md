@@ -5,7 +5,7 @@ One of my first couple of projects to showcase skills I've learned during my Sof
 Technologies Used:
 React.js, CSS, Functions, useEffect, useState
 
-
+I had trouble during the CSS coding for sure, such as the responsive design, I want to get into the habit of starting off all my projects with a mobile-frindly design.
 
 # Getting Started with Create React App
 
