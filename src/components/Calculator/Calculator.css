@@ -16,10 +16,10 @@
           justify-content: center;
           align-items: center;
       }
-      .row{
-          display: grid;
+      /* .row{
+          display:grid;
           grid-template-columns: repeat(4, 1fr); 
-      }
+      } */
       .total{
         position: absolute;
         bottom: 2%;
