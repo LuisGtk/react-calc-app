@@ -24,8 +24,9 @@ export default function Info() {
   //console.log(num)
   return (
     <>
-      <h1>Get your random number generated facts here</h1>
+    <div className="factsDisplay">
       <button className="facts" onClick={handleClick}>Click for another fun fact</button>
+      </div>
       {/* randomFact variable being called */}
       <p> {randomFact}</p>
     </>

@@ -1,6 +1,6 @@
 import { Route, Link, Switch } from 'react-router-dom'
 import Calculator from './components/Calculator/Calculator';
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Info from './components/Info';
 import './App.css';
 
@@ -15,10 +15,10 @@ function App() {
         <main className='buttons'>
           {/* Making the open calculator button into a link */}
           <Link to="/Calculator">
-            <button id='OpenCalc'></button>
+            <button id='OpenCalc'>Press to open the calculator !</button>
           </Link>
 
-          <Link to="Info" >
+          <Link to="number-facts" >
             <button id="mathInfo">Click for some facts</button>
           </Link>
         </main>
@@ -26,7 +26,7 @@ function App() {
       {/* component will only render the first route that matches/includes the path */}
       <Switch>
         <Route path="/Calculator" component={Calculator} />
-        <Route path="/Info" component={Info} />
+        <Route path="/number-facts" component={Info} />
       </Switch>
     </div>
   );
