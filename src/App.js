@@ -5,8 +5,6 @@ import Info from './components/Info';
 import './App.css';
 
 function App() {
-
-  // HOME PAGE
   return (
     <div>
       <nav>
@@ -17,13 +15,12 @@ function App() {
         <main className='buttons'>
           {/* Making the open calculator button into a link */}
           <Link to="/Calculator">
-            <button id='OpenCalc'>Open Calculator</button>
+            <button id='OpenCalc'></button>
           </Link>
 
           <Link to="Info" >
             <button id="mathInfo">Click for some facts</button>
           </Link>
-
         </main>
       </nav>
       {/* component will only render the first route that matches/includes the path */}
