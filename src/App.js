@@ -11,7 +11,6 @@ function App() {
         <Link to='/'>
           <h1>Welcome to Luis's Calculator App</h1>
         </Link>
-        <p>Whether you want to know some weird facts or just want to calculate some stuff, this is the perfect place for you.</p>
         <main className='buttons'>
           {/* Making the open calculator button into a link */}
           <Link to="/Calculator">
